@@ -1,0 +1,15 @@
+{
+  "name": "frontstart",
+  "version": "1.0.0",
+  "description": "HTML, CSS, JS, SASS Starter",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass -o assets/css dev/scss/style.scss -w"
+  },
+  "keywords": [],
+  "author": "Dinamoudev",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
